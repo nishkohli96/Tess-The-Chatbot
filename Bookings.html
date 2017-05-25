@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+
+<head>
+  <title> Bookings </title>
+
+<style>
+  body {margin:0;}
+
+  .navbar {
+    overflow: hidden;
+    background-color: #11111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:100px;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  </style>
+
+</head>
+
+ <script>
+    function setprice(){
+      document.getElementById("cost").value=document.getElementById("price").value;
+      }
+  </script>
+
+
+<body style="background-color:#ccff33">
+
+    <div class="navbar">
+      <table>
+        <tr style="height:20px;"> </tr>
+          <th style="width:200px;"></th>
+            <th>
+             <img src="images\sunshine.jpg" style="width:100px ; height:50px ; align:right"></img>
+            </th>
+            <th>
+             <a href="Home_Page.html" style="color:black">Home</a>
+             <a href="Facilities.html" style="color:black">Facilities</a>
+             <a href="Gallery.html" style="color:black">Gallery</a>
+             <a href="Bookings.html" style="color:black">Booking</a>
+             <a href="JoinUs.html" style="color:black">Join Us</a>
+           </th>
+     </table>
+    </div>
+
+   <div style="height:100px;background-color:green"></div>
+
+   <div style="background-color:#00cc33;height:650px; font-size:25px">
+     <center>
+       <br>
+        <p style="font-size:50px">Customer Info </p>
+          <form>
+           <table>
+             <tr>
+              <td style="width:300px"></td>
+              <td style="width:600px">
+               Name: &nbsp;&nbsp;&nbsp;
+               <input type="text" name="name" pattern="[a-zA-Z ]{5,}" style="width:200px ;height:30px"  placeholder="full-name"required>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </td>
+              <td style="width:600px">
+               Contact : &nbsp;&nbsp;&nbsp;
+               <input type="tel"name="number" style="width:200px ;height:30px" pattern="[0-9]{8,}" placeholder="min 8 digit no. with country code" required>
+              </td>
+            </tr>
+            <tr style="height:20px"></tr>
+            <tr>
+              <td style="width:300px"></td>
+              <td>
+                Email: &nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" style="width:200px ;height:30px"placeholder="Enter a valid email address" required>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             </td>
+
+             <td>
+               Country: &nbsp;&nbsp;&nbsp;
+               <select style="width:200px ;height:30px" required>
+                 <option value="India">India</option>
+                 <option value="USA">U.S.A</option>
+                 <option value="Australia">Australia</option>
+                 <option value="Pakistan">Pakistan</option>
+                 <option value="England">England</option>
+                 <option value="Malaysia">Malaysia</option>
+                 <option value="Other">Other</option>
+               </select>
+             </td>
+           </tr>
+           <tr style="height:20px"></tr>
+           <tr>
+             <td style="width:300px"></td>
+             <td>
+               Apartment Type: &nbsp;&nbsp;&nbsp;
+               <select id="price" style="width:200px ; height:30px" onchange="setprice()" >
+                 <option >Select </option>
+                 <option value="20,00,000">1R1B </option>
+                 <option value="30,00,000" >2R2B </option>
+                 <option value="50,00,000">3R2B </option>
+                 <option value="80,00,000" >4R3B </option>
+               </select>
+             </td>
+             <td >
+               Price:
+               <input type="text" style="width:200px ;height:30px" id="cost" readonly ></input>
+             </td>
+           </tr>
+
+           <tr style="height:20px"></tr>
+
+           <tr>
+             <td style="width:300px"></td>
+             <td>
+               Expected Move-In Date:
+               <input type="date" required></input>
+             </td>
+           </tr>
+
+         </table>
+      <br>
+      <br>
+        <input type="submit" onclick="showDialog()" style="width:150px ;height:40px" ></input>
+
+        </form>
+    </center>
+
+  </div>
+
+   <div style="height:350px ; background-color:green">
+     <center>
+      <br><br>
+       <img src="images\sunshine.jpg" ></img>
+        <br><br>
+         <p style="color:yellow">
+           &copy; Sunshine Hotels & Apartments Pvt Ltd.<br>
+           Tel: 0172-2345245 , 2345246 <br>
+           Email: support@sunshinehotels.com</div>
+        </p>
+    </center>
+  </div>
+
+  <dialog id="window">
+     <p>Thank you for joining our wonderful family.
+     <br>We will shortly contact and mail you the <br>documents required and regarding the payment<br> process. </p>
+     <button id="exit" onclick='window.location.href="Home_Page.html"'>Close </button>
+   </form>
+  </dialog>
+
+
+  <script>
+   function showDialog() {
+     var myModal = document.getElementById('window');
+           myModal.showModal();
+     document.getElementById('exit').addEventListener('click', function() {
+     myModal.close();
+   });}
+  </script>
+  </body>
+
+  </html>

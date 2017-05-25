@@ -1,0 +1,134 @@
+
+<!doctype html>
+
+<html>
+<body style="background-color:#007134">
+
+<div style="height:450px;width:1100px;margin:100px">
+    <center>
+      <p style="font-size:50px">Enter Your  Info </p>
+        <form id="join_form" enctype="multipart/form-data" method="post" action="#">
+         <table>
+          <tr>
+            <td style="width:300px"></td>
+            <td style="width:600px">
+              Name: &nbsp;&nbsp;&nbsp;
+              <input type="text" id="myname" name="name" pattern="[a-zA-Z ]{5,}" style="width:200px ;height:30px"  placeholder="full-name"required>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+            <td style="width:600px">
+              Contact : &nbsp;&nbsp;&nbsp;
+              <input type="tel"id="contact" name="number" style="width:200px ;height:30px" pattern="[0-9]{8,}" placeholder="min 8 digit no. with country code" required>
+            </td>
+          </tr>
+          <tr style="height:20px"></tr>
+          <tr>
+            <td style="width:300px"></td>
+            <td>
+              Email: &nbsp;&nbsp;&nbsp;
+              <input type="email" id="emails" name="email" style="width:200px ;height:30px"placeholder="Enter a valid email address" required>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+
+            <td>
+              Nationality: &nbsp;&nbsp;&nbsp;
+              <select style="width:200px ;height:30px" required>
+                <option value="India">India</option>
+                <option value="Other">Other</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr style="height:20px"></tr>
+          <tr>
+            <td style="width:300px"></td>
+            <td>
+              DOB: &nbsp;&nbsp;&nbsp;
+              <input type="date" id="db" name="dob" style="width:200px ;height:30px"  required>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td>
+                  Position: &nbsp;&nbsp;&nbsp;
+                  <select style="width:200px ;height:30px" required>
+                    <option value="gym_trainer">Gym Trainer</option>
+                    <option value="sports_coach">Sports Coach</option>
+                    <option value="swimming_coach">Swimming Coach</option>
+                    <option value="chef">Chef</option>
+                    <option value="waiter">Waiter</option>
+                    <option value="salesperson">Salesperson</option>
+                    <option value="caretaker">Room Caretaker</option>
+                    <option value="other">Other</option>
+                  </select>
+                </td>
+              </tr>
+
+            <tr style="height:20px"></tr>
+              <tr>
+                <td style="width:700px"></td>
+                <td>
+                  Previous Work Experience: &nbsp;&nbsp;&nbsp;
+                  <input type="radio" id="work1" name="exp" required>Yes </input>
+                    &nbsp;&nbsp;&nbsp;
+                  <input type="radio" id="work2" name="exp" required>No </input>
+                </td>
+              </tr>
+
+             <tr style="height:20px"></tr>
+                <tr>
+                  <td style="width:700px"></td>
+                  <td style="width:700px">
+                    Resume (Word File Only): &nbsp;&nbsp;&nbsp;
+                    <input type="file" name="resume" id="resume"
+                     accept="application/vnd.openxmlformats-officedocument.wordprocessingml.document" required></input>
+                   </td>
+                 </tr>
+        </table>
+
+      <br>
+      <br>
+       <input type="submit"  action="showDialog()" style="width:150px ;height:40px" ></input>
+
+       <dialog id="window">
+         <p>Thank you for your interest in joining us.
+         <br>We shall contact you shortly. </p>
+         <button id="exit" onclick='window.location.href="Home_Page.html"'>Close </button>
+       </dialog>
+
+
+   </form>
+ </center>
+</div>
+
+</body>
+
+<script>
+ function showDialog() {
+   var myModal = document.getElementById('window');
+   var email = document.getElementById('emails');
+   var name = document.getElementById('myname');
+   var contact = document.getElementById('contact');
+   var exp1 = document.getElementById('work1');
+   var exp2 = document.getElementById('work2');
+   var db = document.getElementById('db');
+   var resume = document.getElementById('resume');
+
+         myModal.showModal();
+   document.getElementById('exit').addEventListener('click', function() {
+   myModal.close();
+ });
+
+ $("#join_form").submit(function(){
+     var isFormValid = true;
+     $(".required input").each(function(){
+         if ($.trim($(this).val()).length == 0){
+             isFormValid = false;
+         }
+         else{
+         }
+     });
+
+     if (!isFormValid) alert("Please fill in all the required fields (indicated by *)");
+
+     return isFormValid;
+ });
+
+}
+  </script>
+</html>

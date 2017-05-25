@@ -1,0 +1,55 @@
+
+#outer{
+  width: 700px;
+  overflow: hidden;
+  height:900px;
+}
+
+#inner{
+   position: relative;
+   width:4000px;
+   animation-name: slideshow ;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+}
+#inner img{
+  float:left;
+}
+
+#roomlist
+{
+ font-size: 30px;
+}
+
+
+@keyframes slideshow {
+  
+  0%{
+    left:0px;
+  }
+
+  20%{
+    left:0px;
+  }
+   25%{
+     left: -1000px;
+   }
+   45%{
+     left: -1000px;
+   }
+   50%{
+     left: -2000px;
+   }
+   70%{
+     left: -2000px;
+   }
+   75%{
+     left: -3000px;
+   }
+   95%{
+     left: -3000px;
+   }
+   100%{
+     left: -4000px;
+   }
+}
