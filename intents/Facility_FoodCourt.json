@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "bd2d0cd5-b106-47e1-a75a-bf9d8e69f855",
+      "data": [
+        {
+          "text": "food"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9de2a0c1-63e6-4f01-b8a2-e411110a754a",
+      "data": [
+        {
+          "text": "what eating options do you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fe1673cc-2e99-4603-b8c0-72d883306681",
+      "data": [
+        {
+          "text": "tell me something about food court"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a28b3a05-1baf-45f6-9a6b-aa63006f4576",
+      "data": [
+        {
+          "text": "eating options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "063fa8f6-da83-4d9d-ae68-cd265d214548",
+      "data": [
+        {
+          "text": "what eating places are there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f71efed3-86b1-491b-98e8-ddb6ffb7e11a",
+      "data": [
+        {
+          "text": "do you have a food court?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2682023a-838f-4baa-9c39-6590f9479791",
+      "data": [
+        {
+          "text": "food court",
+          "alias": "address",
+          "meta": "@sys.address",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b43eeaf9-abe5-4a25-a1d9-9c47b19c0b6b",
+  "name": "Facility_FoodCourt",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The Food Court is your eating hub serving food from various cuisines.Dominos, Pizza Hut, McDonalds, Subway etc; we have them all.There is ample sitting arrangement and all the food is prepared from fresh and the best ingredients."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

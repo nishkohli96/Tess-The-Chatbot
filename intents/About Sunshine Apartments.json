@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "fa47310d-fdd0-4e8c-9a7d-ad476e6fd885",
+      "data": [
+        {
+          "text": "About sunshine apartments"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8dc8beee-1503-4973-aec9-40994541c896",
+  "name": "About Sunshine Apartments",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.about",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "",
+          "name": "sunshine_apartments",
+          "value": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The Sunshine Apartments are a luxury apartment chain currently based in Mumbai and slowly making plans to make a mark in NCR as well.We aim at providing top living conditions with all the facilities  at your doorstep so that you feel as if on a vacation.",
+            ""
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "",
+          "buttons": [
+            {
+              "text": "Read more on our website",
+              "postback": "http://www.example.com/"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "slack",
+        "google"
+      ]
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

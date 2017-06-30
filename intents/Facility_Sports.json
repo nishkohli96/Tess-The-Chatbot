@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "729026f5-5b2a-4153-af2b-47afa4c10f84",
+      "data": [
+        {
+          "text": "sports arena"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3746add2-dd79-4d85-b3ee-8581755d232d",
+      "data": [
+        {
+          "text": "what is the sports arena"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "538c5268-d590-44e2-af97-943c3a09c274",
+      "data": [
+        {
+          "text": "Do you have any sports facilities"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52f0dcb7-0a91-45df-bdfe-014e2d18ce6f",
+      "data": [
+        {
+          "text": "Tell me something about the sports arena"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "253144a8-50a1-4b8c-a6a5-673cc39e84ec",
+      "data": [
+        {
+          "text": "What facilities does your  sports arena have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d730a531-3f82-4353-bb89-7f249656f859",
+  "name": "Facility_Sports",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Our sports arena has proper and well-maintained courts for most of the sports played across the world.We also have a gym in the complex itself.All the trainers and coaches are professionals. We also have spa and massage facilities in the arena itself along with a nearby hospital."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

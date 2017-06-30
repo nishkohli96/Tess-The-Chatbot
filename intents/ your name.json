@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "77169a05-e33d-4723-a4b0-1ea600c93f57",
+      "data": [
+        {
+          "text": "who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c4dac4f2-70e1-47c0-aff6-38c58c37ec9b",
+      "data": [
+        {
+          "text": "ur name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df1c3768-6a07-4d4b-9508-3ecafd0536ad",
+      "data": [
+        {
+          "text": "your name?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0c180ba2-a20e-4345-885d-fa4e1190fa62",
+  "name": " your name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.live_person",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hii my name is Tess. Nice to meet you !!!"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

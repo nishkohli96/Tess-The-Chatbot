@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "51428580-6710-4b52-915d-7adfc97d64cf",
+      "data": [
+        {
+          "text": "what categories of rooms do you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1d1cb54-087b-4e11-91f9-4b4f13849dd3",
+      "data": [
+        {
+          "text": "what room types you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "498ecfee-b974-4f14-9f29-9cf0972d5929",
+      "data": [
+        {
+          "text": "categories of rooms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c17147d-a0ac-4f8a-a78d-098dcf3bc0c1",
+      "data": [
+        {
+          "text": "room categories"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce84edd8-5dcf-4e87-9a86-6a4ddb627afe",
+      "data": [
+        {
+          "text": "room types"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71deeae8-eee0-4488-85a0-2467f1dc28ad",
+      "data": [
+        {
+          "text": "room type"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0e5799e0-d919-40ce-9d25-5e909882b360",
+  "name": "Room_type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "We have the following room categories-  single room with attached bathroom ; 2 rooms \u0026 2 bathrooms ; 3 rooms \u0026 3 bathrooms ; 4 rooms \u0026 3 bathrooms.  Each apartment has its own wifi, drawing room ,dining room ,kitchen and a balcony."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

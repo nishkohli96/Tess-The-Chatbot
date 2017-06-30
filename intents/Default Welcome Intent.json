@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "fce550c7-5e29-4259-8800-9119e089bf80",
+      "data": [
+        {
+          "text": "yo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb16c973-69a9-4df1-9387-6225d26d3bc7",
+      "data": [
+        {
+          "text": "whats\u0027up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba2b8fe2-8973-4315-8506-97f84586c8b5",
+      "data": [
+        {
+          "text": "ssup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e4e69de-11ac-4174-878b-6525aa9c1ea7",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a96b325-d0b0-41bc-81fc-47b23340954f",
+      "data": [
+        {
+          "text": "hiii"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6140c601-0f1a-4c33-9a00-5763b0f29460",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "slack"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

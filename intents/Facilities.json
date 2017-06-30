@@ -1,0 +1,56 @@
+{
+  "userSays": [
+    {
+      "id": "42665193-e0ad-4595-8c82-e67eafcf5bd0",
+      "data": [
+        {
+          "text": "facilities??"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a375c9b-35ec-4efb-9eb9-afbc49d7935b",
+      "data": [
+        {
+          "text": "what are the amenities here??"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25b0a4e2-aac6-4d1f-bd5e-3dd1ac9474f8",
+      "data": [
+        {
+          "text": "what facilities do you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fa7f4d4a-a69e-40be-bfdd-101fc884e635",
+  "name": "Facilities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "We have almost all  facilities you can dream of - swimming pools,tennis courts,shopping complex ,gym ,spa ,24 X 7 water and electricity and lots more."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

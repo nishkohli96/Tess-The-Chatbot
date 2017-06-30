@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "bfa6fd1a-e5e2-490c-af19-949e039a36fc",
+      "data": [
+        {
+          "text": "library"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b1fd75d-828c-4f92-9d1a-cde476ff088d",
+      "data": [
+        {
+          "text": "What facilities does your library have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22e6da4b-3136-4a48-8559-32f93bfaac33",
+      "data": [
+        {
+          "text": "How many books does your library have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab297532-3bef-428a-84aa-359e622d65c5",
+      "data": [
+        {
+          "text": "Tell me something about the library"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6bb6a5c2-7db2-4b6c-9f48-989353830215",
+      "data": [
+        {
+          "text": "Do you have a library ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "26c14196-ca46-4031-9d24-d219290cef4b",
+  "name": "Facility_Library",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Our library has over 1 lakh books with multiple books on each topic.We also have printing services, wifi and a mini cafe in the library."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

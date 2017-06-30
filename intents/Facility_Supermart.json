@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "2a542a5b-94b6-4c63-8377-a323edde6036",
+      "data": [
+        {
+          "text": "supermart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55ff0fb5-d468-41d6-bc47-e7bd58641613",
+      "data": [
+        {
+          "text": "tell me something about supermart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0081e92c-71c0-4b53-a13d-b29a32ef7ad2",
+      "data": [
+        {
+          "text": "What is the supermart?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bafe0b02-158d-4ffe-9c99-a5bf729e98b0",
+      "data": [
+        {
+          "text": "Do you have a store for all daily needs?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "44e46ec6-f5c7-4235-8419-50e84d6cf90e",
+  "name": "Facility_Supermart",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The Supermart is your daily needs store having a large variety of each grocery item.Fruits,vegetables,cereals,milk etc all sold at a very reasonable price."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

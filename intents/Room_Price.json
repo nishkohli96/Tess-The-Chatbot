@@ -1,0 +1,139 @@
+{
+  "userSays": [
+    {
+      "id": "db2572ac-6a03-4da1-ad08-830c92a1ce90",
+      "data": [
+        {
+          "text": "room prices"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad6303e8-6f7b-472f-bc7d-7c0df51e239b",
+      "data": [
+        {
+          "text": "room price of "
+        },
+        {
+          "text": "4",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "R3B"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "751bb98d-0105-42df-936f-2d8f3a296886",
+      "data": [
+        {
+          "text": "room price of "
+        },
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "R2B"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7346d8e3-dba2-4c82-99c6-c56dcfe393bd",
+      "data": [
+        {
+          "text": "room price of "
+        },
+        {
+          "text": "2",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "R2B"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9baaa8e1-9587-4757-a224-09baae25d10a",
+      "data": [
+        {
+          "text": "room price of "
+        },
+        {
+          "text": "1",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": "R1B"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "460baaa6-b81d-454d-9310-7b3debc5b55a",
+      "data": [
+        {
+          "text": "room prices of different apartments"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3545ab6-0434-4244-83f6-4fd7cc34f92c",
+      "data": [
+        {
+          "text": "room prices of apartments"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ad02f7cd-898e-452f-8ea3-1cf777360e43",
+  "name": "Room_Price",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The Room Prices of 1R1B , 2R1B ,3R2B ,4R3B are Rs.20,00,000 , Rs. 30,00,000 , Rs.50,00,000 and Rs. 80,00,000 respectively."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

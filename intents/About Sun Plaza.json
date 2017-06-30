@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "2bc9756a-e882-4a3c-97e2-306a7c41ec83",
+      "data": [
+        {
+          "text": "what is sun plaza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1c9d699-3d05-4b3a-89d1-e468c54d06ce",
+      "data": [
+        {
+          "text": "Details about the Sun Plaza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdae78b0-7dc5-498b-8fe6-f4198739772f",
+      "data": [
+        {
+          "text": "Tell me something about sun plaza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c66949a2-07ef-4032-9fe6-783fadebe888",
+  "name": "About Sun Plaza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The Sun Plaza is a luxury apartment building in Andheri(E) in Mumbai and is considered a mini-city in itself.We have all the facilities you can dream of in your ideal luxurious home and  have received a good response about the living conditions here from the families currently staying with us."
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "",
+          "buttons": [
+            {
+              "text": "Delivery",
+              "postback": "http://example.com/delivery"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": [
+        "slack"
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
