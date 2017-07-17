@@ -26,9 +26,9 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": [
-        "google"
-      ]
+      "defaultResponsePlatforms": {
+        "google": true
+      }
     }
   ],
   "priority": 500000,

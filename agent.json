@@ -1,7 +1,7 @@
 {
   "description": "Your online guide to know more about the Sunshine Apartments.",
   "language": "en",
-  "enabledDomainFeatures": [
+  "activeAssistantAgents": [
     "smalltalk-domain-on",
     "smalltalk-fulfillment-on"
   ],

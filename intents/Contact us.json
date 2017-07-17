@@ -130,9 +130,9 @@
           "speech": "Tel: 0172-2345245 , 2345246 \nEmail: support@sunshinehotels.com"
         }
       ],
-      "defaultResponsePlatforms": [
-        "slack"
-      ]
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
     }
   ],
   "priority": 500000,

@@ -1,6 +1,16 @@
 {
   "userSays": [
     {
+      "id": "568f797e-aa53-4608-8ca9-6087a87f6846",
+      "data": [
+        {
+          "text": "sun plaza"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "2bc9756a-e882-4a3c-97e2-306a7c41ec83",
       "data": [
         {
@@ -58,9 +68,9 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": [
-        "slack"
-      ]
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
     }
   ],
   "priority": 500000,

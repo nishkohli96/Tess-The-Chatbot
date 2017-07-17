@@ -72,9 +72,9 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": [
-        "slack"
-      ]
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
     }
   ],
   "priority": 500000,

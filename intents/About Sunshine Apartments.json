@@ -48,10 +48,10 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": [
-        "slack",
-        "google"
-      ]
+      "defaultResponsePlatforms": {
+        "slack": true,
+        "google": true
+      }
     }
   ],
   "priority": 1000000,
